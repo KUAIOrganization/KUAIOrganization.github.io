@@ -125,7 +125,7 @@ model = nn.Sequential(
 )
 ```
 
-## Step 2: Flattening and classifying
+## Step 3: Flattening and classifying
 
 This step is relatively simple compared to the last one, we now only need to flatten the layer and make a linear layer from this flattened array to our choices. A linear layer is great at mapping linear inputs to outputs, but needs that flat layer first.
 
@@ -155,7 +155,7 @@ model = nn.Sequential(
 )
 ```
 
-## step 3: the training loop
+## step 4: the training loop
 
 from here we add a loss and an optimizer, using cross entropy loss, this is basically the loss you use whenever you have multiple choices, like our 10 classes, compared to something like MSE for accuracy
 
