@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://KUAIOrganization.github.io/index.html</loc>
+         <lastmod>2025-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://KUAIOrganization.github.io/leaders.html</loc>
+         <lastmod>2025-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://KUAIOrganization.github.io/projects.html</loc>
+         <lastmod>2025-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://KUAIOrganization.github.io/resources.html</loc>
+         <lastmod>2025-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://KUAIOrganization.github.io/tutorials.html</loc>
+         <lastmod>2025-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://KUAIOrganization.github.io/tutorials/cnn.html</loc>
+         <lastmod>2025-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://KUAIOrganization.github.io/tutorials/mlp.html</loc>
+         <lastmod>2025-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://KUAIOrganization.github.io/tutorials/nn_base.html</loc>
+         <lastmod>2025-08-27</lastmod>
+    </url>
+</urlset>
