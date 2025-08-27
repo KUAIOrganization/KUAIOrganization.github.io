@@ -1,5 +1,5 @@
 site_name: KU AI Club
-site_url: "KUAIOrganization.github.io"
+site_url: "https://KUAIOrganization.github.io"
 theme:
   name: material
   logo: "assets/logo.png"
@@ -44,4 +44,5 @@ markdown_extensions:
   - pymdownx.snippets
 
   - pymdownx.superfences
+
 
