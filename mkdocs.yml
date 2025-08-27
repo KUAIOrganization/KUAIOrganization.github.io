@@ -1,0 +1,46 @@
+site_name: KU AI Club
+site_url: ""
+theme:
+  name: material
+  logo: "assets/logo.png"
+  favicon: "assets/favicon.ico"
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.expand
+    - navigation.indexes
+  palette:
+    scheme: default
+    primary: black
+    accent: red
+
+    scheme: default
+    toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    scheme: slate
+    toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+nav:
+  - Home: index.md
+  - Projects: projects.md
+  - Tutorials: tutorials.md
+  - Leaders: leaders.md
+  - Resources: resources.md
+use_directory_urls: false
+extra:
+  generator: false
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+  - pymdownx.superfences
