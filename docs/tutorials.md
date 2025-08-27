@@ -31,10 +31,10 @@ Think of how you can represent your data, what shapes seem the most natural or o
 | autoencoder  | anything, but input and output have the same shape  | clean/normalize data so it can be reconstructed |
 | gnn (graph)  | a set of points with connections (a network/graph)  | describe which points are linked and what each point's values are |
 
-Links to each NN **(WIP)**:
+Links to each NN:
 
-- [cnn tutorial](tutorials/cnn.md)  **(WIP)**
-- [mlp tutorial](tutorials/mlp.md)  **(WIP)**
+- [cnn tutorial](tutorials/cnn.md)
+- [mlp tutorial](tutorials/mlp.md)
 - [rnn tutorial](tutorials/rnn.md)  **(WIP)**
 - [transformer tutorial](tutorials/transformers.md)  **(WIP)**
 - [autoencoder tutorial](tutorials/autoencoders.md)  **(WIP)**
@@ -52,5 +52,6 @@ if none of these sound similar to your usecase, bring it up during one of our me
  - Transformer - can basically model any n -> {all previous Ns} sets, but mostly used for language modelling and anything to do with language
  - Autoencoders - compression, anomaly detection (if it can't reconstruct the signal, the signal is outside the usual bounds)
  - GNNs - can model anything representable as a graph or connected points (social networks, databases, 3d models, atoms/molecules)
+
 
 
