@@ -24,8 +24,8 @@ Think of how you can represent your data, what shapes seem the most natural or o
 
 | model type   | what the input looks like                           | how you usually prepare the data            |
 |--------------|-----------------------------------------------------|---------------------------------------------|
-| mlp          | a simple list of numbers, or a spreadsheet          | put everything into a list, scale values    |
 | cnn          | a grid/array of values (like a table or an image)   | arrange data into rows/columns, add depth if needed |
+| mlp          | a simple list of numbers, or a spreadsheet          | put everything into a list, scale values    |
 | rnn/lstm/gru | a sequence of steps (like words in a sentence, or time series) | make all sequences the same length, turn words/items into numbers |
 | transformer  | a sequence with positions (like a sentence where order matters) | same as above, but also give the model info about position/order |
 | autoencoder  | anything, but input and output have the same shape  | clean/normalize data so it can be reconstructed |
@@ -33,8 +33,8 @@ Think of how you can represent your data, what shapes seem the most natural or o
 
 Links to each NN **(WIP)**:
 
-- [mlp tutorial](tutorials/mlp.md)  **(WIP)**
 - [cnn tutorial](tutorials/cnn.md)  **(WIP)**
+- [mlp tutorial](tutorials/mlp.md)  **(WIP)**
 - [rnn tutorial](tutorials/rnn.md)  **(WIP)**
 - [transformer tutorial](tutorials/transformers.md)  **(WIP)**
 - [autoencoder tutorial](tutorials/autoencoders.md)  **(WIP)**
@@ -46,10 +46,11 @@ If you are currently unsure about the shape method above, and want something sim
 
 if none of these sound similar to your usecase, bring it up during one of our meetings or [email me](mailto:vatsapandey123@gmail.com)
 
- - MLPs - Classifying off of tables, regression
  - CNNs - Image classification, basically anything you can turn into an image (fraud heatmaps, audio spectograms)
+ - MLPs - Classifying off of tables, regression
  - RNN/lstm/gru - Basically any time related predictions (t1->t2->t3), or basic language modelling (small sentences, words, verbs, etc)
  - Transformer - can basically model any n -> {all previous Ns} sets, but mostly used for language modelling and anything to do with language
  - Autoencoders - compression, anomaly detection (if it can't reconstruct the signal, the signal is outside the usual bounds)
  - GNNs - can model anything representable as a graph or connected points (social networks, databases, 3d models, atoms/molecules)
+
 
