@@ -46,9 +46,10 @@ If you are currently unsure about the shape method above, and want something sim
 
 if none of these sound similar to your usecase, bring it up during one of our meetings or [email me](mailto:vatsapandey123@gmail.com)
 
-MLPs - Classifying off of tables, regression
-CNNs - Image classification, basically anything you can turn into an image (fraud heatmaps, audio spectograms)
-RNN/lstm/gru - Basically any time related predictions (t1->t2->t3), or basic language modelling (small sentences, words, verbs, etc)
-Transformer - can basically model any n -> {all previous Ns} sets, but mostly used for language modelling and anything to do with language
-Autoencoders - compression, anomaly detection (if it can't reconstruct the signal, the signal is outside the usual bounds)
-GNNs - can model anything representable as a graph or connected points (social networks, databases, 3d models, atoms/molecules)
+ - MLPs - Classifying off of tables, regression
+ - CNNs - Image classification, basically anything you can turn into an image (fraud heatmaps, audio spectograms)
+ - RNN/lstm/gru - Basically any time related predictions (t1->t2->t3), or basic language modelling (small sentences, words, verbs, etc)
+ - Transformer - can basically model any n -> {all previous Ns} sets, but mostly used for language modelling and anything to do with language
+ - Autoencoders - compression, anomaly detection (if it can't reconstruct the signal, the signal is outside the usual bounds)
+ - GNNs - can model anything representable as a graph or connected points (social networks, databases, 3d models, atoms/molecules)
+
